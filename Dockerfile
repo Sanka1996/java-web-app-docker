@@ -1,3 +1,3 @@
-FROM tomcat:8.0.20-jre8
+FROM tomcat:latest
 # Dummy text to test 
-COPY target/javawebapps*.war /usr/local/tomcat/webapps/javawebapps.war
+COPY target/java-web-app*.war /usr/local/tomcat/webapps/java-web-app.war
